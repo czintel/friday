@@ -6,6 +6,7 @@
   --color-dark-cyan: hsl(192, 100%, 9%);
   --color-gray-blue: hsl(208, 11%, 55%);
   --color-box-shadow-pink: hsla(322, 100%, 66%, 0.3);
+  --color-box-shadow-black: hsla(192, 100%, 9%, 0.1);
   --mobile-width: 375px;
   --desktop-width: 1440px;
 }
