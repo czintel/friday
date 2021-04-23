@@ -1,6 +1,6 @@
 {
   "alt-require": true,
-  "attr-lowercase": true,
+  "attr-lowercase": false,
   "attr-no-duplication": true,
   "attr-no-unnecessary-whitespace": true,
   "attr-unsafe-chars": true,
@@ -23,7 +23,7 @@
   "style-disabled": false,
   "tag-pair": true,
   "tag-self-close": true,
-  "tagname-lowercase": true,
+  "tagname-lowercase": false,
   "tags-check": false,
   "title-require": false
 }
