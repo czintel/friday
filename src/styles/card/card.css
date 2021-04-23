@@ -1,0 +1,16 @@
+.card {
+  background: var(--color-white);
+  padding: 42.5px 15px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 2px 4px 10px var(--color-box-shadow-black);
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__content {
+  text-align: center;
+}
