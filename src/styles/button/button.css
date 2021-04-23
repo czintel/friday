@@ -1,0 +1,16 @@
+.button {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 12px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 2px 4px 10px var(--color-box-shadow-pink);
+}
+
+.button__heading {
+  font-weight: 400;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0 80px;
+}
