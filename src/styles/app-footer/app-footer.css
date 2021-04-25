@@ -1,0 +1,17 @@
+.app-footer {
+  background: var(--color-dark-cyan);
+}
+
+.app-footer__logo {
+  width: 40%;
+  height: auto;
+}
+
+.app-footer p {
+  color: var(--color-white);
+}
+
+.app-footer a {
+  color: var(--color-white);
+  text-decoration: none;
+}
