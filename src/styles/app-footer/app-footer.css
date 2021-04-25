@@ -56,6 +56,12 @@
 }
 
 @media (min-width: 700px) {
-  display: grid;
-  grid-template-columns: 40% 20% 20% 20%;
+  .app-footer {
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    grid-template-rows: repeat(4 1fr);
+  }
+  .app-footer__logo {
+    grid-row: 1 / -1;
+  }
 }
