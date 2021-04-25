@@ -54,3 +54,41 @@
   font-size: small;
   text-align: center;
 }
+
+@media (min-width: 700px) {
+  .app-footer__main {
+    display: flex;
+  }
+
+  .app-footer__address {
+    width: 40%;
+    height: auto;
+    display: grid;
+  }
+
+  .app-footer__navigation {
+    width: 40%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 25px 25px;
+  }
+
+  .app-footer__copyright {
+    grid-column: 1 / -1;
+    text-align: right;
+  }
+
+  .app-footer__social {
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 25px;
+  }
+
+  .app-footer__twitter {
+    margin: 0 10px;
+  }
+}
