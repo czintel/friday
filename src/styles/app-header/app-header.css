@@ -2,13 +2,10 @@
   background: var(--color-pale-cyan)
     url(../../../design/images/bg-hero-mobile.svg);
   color: var(--color-dark-cyan);
-  width: var(--mobile-width);
+  width: 100%;
   height: auto;
   margin: 0;
   padding: 30px;
-}
-
-.app-header__heading {
   font-weight: 600;
   font-size: 1.2rem;
   text-align: center;
@@ -21,14 +18,8 @@
 
 .app-header__welcome {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-}
-
-.app-header__welcome p {
-  font-weight: 400;
-  text-align: center;
-  margin-top: 40px;
 }
 
 .app-header__top {
@@ -48,4 +39,27 @@
   width: 70%;
   height: auto;
   margin: 40px 0;
+}
+
+@media (max-width: 699px) {
+  .app-header__welcome {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 700px) {
+  .app-header__welcome--desktop {
+    flex-direction: row;
+    text-align: left;
+    padding-left: 40px;
+    align-items: left;
+  }
+
+  .app-header__button {
+    max-width: 300px;
+  }
+
+  .app-header__mockup {
+    margin-left: 80px;
+  }
 }
