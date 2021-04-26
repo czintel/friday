@@ -13,6 +13,10 @@
   position: relative;
 }
 
+.card:last-child {
+  margin: 100px;
+}
+
 .card__content {
   text-align: center;
 }

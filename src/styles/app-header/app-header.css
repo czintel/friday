@@ -41,16 +41,6 @@
   margin: 40px 0;
 }
 
-.button__white {
-  background-color: var(--color-white);
-  color: var(--color-dark-cyan);
-  font-size: x-small;
-  height: 13px;
-  width: 110px;
-  text-align: center;
-  padding: 0;
-}
-
 @media (max-width: 699px) {
   .app-header__welcome {
     flex-direction: column;
