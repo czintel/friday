@@ -57,6 +57,11 @@
 }
 
 @media (min-width: 700px) {
+  .app-footer__logo {
+    width: 15%;
+    height: auto;
+  }
+
   .app-footer__main {
     display: flex;
   }
