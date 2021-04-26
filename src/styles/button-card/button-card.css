@@ -7,6 +7,9 @@
   height: fit-content;
   text-align: center;
   box-shadow: 2px 4px 10px var(--color-box-shadow-black);
+  position: absolute;
+  z-index: 1;
+  margin: -110px 20px;
 }
 
 .button {
@@ -19,6 +22,10 @@
   box-shadow: 2px 4px 10px var(--color-box-shadow-black);
   margin-top: 15px;
   scale: 80%;
+}
+
+.button:hover {
+  background: var(--color-primary-light);
 }
 
 .button__heading {
