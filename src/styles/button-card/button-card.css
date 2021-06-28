@@ -7,9 +7,7 @@
   height: fit-content;
   text-align: center;
   box-shadow: 2px 4px 10px var(--color-box-shadow-black);
-  position: absolute;
-  z-index: 1;
-  margin: -110px 20px;
+  margin: 110px 20px;
 }
 
 .button {

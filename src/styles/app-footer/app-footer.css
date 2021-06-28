@@ -1,6 +1,7 @@
 .app-footer {
   background: var(--color-dark-cyan);
   padding: 16px;
+  position: absolute;
 }
 
 .app-footer__logo {

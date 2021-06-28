@@ -16,8 +16,8 @@
 }
 
 .button--white {
-  background-color: var(--color-white);
-  color: var(--color-dark-cyan);
+  background-color: var(--color-white) !important;
+  color: var(--color-dark-cyan) !important;
   font-size: x-small;
   height: 13px;
   width: 110px;
